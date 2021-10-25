@@ -16,5 +16,6 @@ namespace API_REST_CONTA.Entity
         public double cantidad { get; set; }
         public double precio_unitario { get; set; }
         public double total_precio { get; set; }
+        public int evento { get; set; }
     }
 }

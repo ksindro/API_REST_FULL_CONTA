@@ -1,5 +1,6 @@
 ﻿using API_REST_CONTA.Context;
 using API_REST_CONTA.Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,10 @@ using System.Threading.Tasks;
 
 namespace API_REST_CONTA.Controllers
 {
+    //[EnableCors("MyCorsImplementationPilicy")]
     [Route("api/[controller]")]
     [ApiController]
+    //[EnableCors("MyCorsImplementationPilicy")]
     public class ProductosController : ControllerBase
     {
         public AppDBContext context { get; }

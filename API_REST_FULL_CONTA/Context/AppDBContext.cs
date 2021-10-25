@@ -16,5 +16,6 @@ namespace API_REST_CONTA.Context
 
         // Tablas del contexto
         public DbSet<Productos> Productos { get; set; }
+        public DbSet<Clientes> Clientes { get; set; }
     }
 }
