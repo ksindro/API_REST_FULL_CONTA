@@ -1,4 +1,5 @@
 ﻿using API_REST_CONTA.Entity;
+using API_REST_FULL_CONTA.Entity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,5 +18,6 @@ namespace API_REST_CONTA.Context
         // Tablas del contexto
         public DbSet<Productos> Productos { get; set; }
         public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Proveedores> Proveedores { get; set; }
     }
 }

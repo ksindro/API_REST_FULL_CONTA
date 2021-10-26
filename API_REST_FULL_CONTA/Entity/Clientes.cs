@@ -9,8 +9,7 @@ namespace API_REST_CONTA.Entity
     public class Clientes
     {
         [Key]
-        public int codigo_cliente { get; set; }
-        public int id_cliente { get; set; }
+        public int codigo_cliente { get; set; } 
         public string nit { get; set; }
         public string primer_nombre { get; set; }
         public string segundo_nombre { get; set; }
