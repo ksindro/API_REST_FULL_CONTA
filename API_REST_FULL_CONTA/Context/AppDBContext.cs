@@ -19,5 +19,7 @@ namespace API_REST_CONTA.Context
         public DbSet<Productos> Productos { get; set; }
         public DbSet<Clientes> Clientes { get; set; }
         public DbSet<Proveedores> Proveedores { get; set; }
+        public DbSet<Parametrizaciones> Parametrizaciones { get; set; }
+        public DbSet<Asientos_Contables> Asientos_Contables { get; set; }
     }
 }
